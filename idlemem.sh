@@ -5,6 +5,8 @@
 # Assumptions:
 # Process is attached to a tty.
 #
+# CREDIT GOES TO "vino" from
+# http://www.unix.com/shell-programming-and-scripting/21593-check-process.html
 
 [[ -z "$1" ]] && echo "Usage: $0 pid" && exit 1
 
